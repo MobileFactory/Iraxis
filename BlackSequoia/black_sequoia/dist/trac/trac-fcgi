@@ -1,0 +1,3 @@
+#! /bin/sh
+/usr/bin/trac-fcgi.py $1 &
+exit

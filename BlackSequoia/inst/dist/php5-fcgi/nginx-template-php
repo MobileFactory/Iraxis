@@ -1,0 +1,15 @@
+        location / {
+                root /home/www/$server_name;
+                index index.php index.html index.htm;
+        }
+
+        location ~ \.php$ {
+                fastcgi_pass   127.0.0.1:5300;
+                fastcgi_index  index.php;
+                fastcgi_param  REQUEST_URI     $request_uri;
+                fastcgi_param  SCRIPT_FILENAME  /home/www/$server_name$fastcgi_script_name;
+                include        fastcgi_params;
+                proxy_set_header  Host             $host;
+                proxy_set_header  X-Real-IP        $remote_addr;
+                proxy_set_header  X-Forwarded-For  $proxy_add_x_forwarded_for;
+        }

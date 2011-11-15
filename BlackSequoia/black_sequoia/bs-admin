@@ -1,0 +1,3 @@
+#!/bin/bash
+#bs-admin.php command string warper
+php /usr/local/black_sequoia/bs-admin.php $*

@@ -1,0 +1,11 @@
+        if ($uri ~ ^/(.*)) {
+             set $path_info /$1;
+        }
+
+        location / {
+            auth_basic "DevZone";
+            auth_basic_user_file /etc/nginx/htpasswds/$server_name.htpasswd;
+            fastcgi_pass   unix:/tmp/trac-$server_name.sock;
+            include nginx-tracfcgi.conf;
+        }
+

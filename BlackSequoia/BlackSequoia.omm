@@ -1,0 +1,40 @@
+== Black Sequoia ==
+Интсрументарий управления IT инфраструктурой на базе облачных сервисов.
+Являет собой набор скриптов реализующий
+
+ * Cluster (кластер) - 
+ * Physic-node (физическая нода) - 
+ * Node (нода) - Операционная система выполняемая на physic-node имеющая типизированный набор ПО и начальную конфигурацию.
+ * Servie () -  
+ * Application (приложение)
+
+iraxis.ru - кластер
+	Формат образования DNS имени различных элементов:
+ * Ноды: 
+[hosting]-[node_number].nodes.[cluster].[tld] - пространство для нод
+	msk-1.nodes.iraxis.ru - нода 01 в Scalaxy
+	lndf-3.nodes.iraxis.ru - нода 03 в VPS.NET облако F
+
+ * Сервисы:
+[service]-[service_noumber].[application].services.[cluster].[tld]
+	percona-2.iridiumide.services.iraxis.ru - Percona сервер №2 приложения iridiumide
+	www-1.iridiumide.services.iraxis.ru - nginx сервер приложения iridiumide
+
+ * Приложения:
+[application].apps.[cluster].[tld]
+	iridiumide.apps.iraxis.ru - приложение iridiumide
+	blacksequoia.apps.iraxis.ru - приложение blacksequoia
+ 
+ * Запсь в DNS домена приложения:
+[application].[tld] CNAME [application].apps.[cluster].[tld].
+	iridiumide.com CNAME iridiumide.apps.iraxis.ru.
+	www.iridiumide.com CNAME iridiumide.apps.iraxis.ru.
+	blacksequoia.com CNAME blacksequoia.apps.iraxis.ru.
+
+Iraxis llc - основная сервисная компания обслуживающая инфраструктуру IridiumIDE.com
+
+
+mysql.iridiumide.com.services.iraxis.ru
+iridiumide.com.applications.iraxis.ru
+
+												==ir.0wI1A.russian

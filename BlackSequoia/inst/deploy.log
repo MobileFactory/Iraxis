@@ -1,0 +1,84 @@
+
+7-Zip 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+
+Scanning
+
+Updating archive ..\bs.zip
+
+Compressing  bs-admin
+Compressing  bs-admin.php
+Compressing  deploy.log
+WARNING: Системе не удается найти указанный путь.
+
+Compressing  dist\apache2\apache2.conf
+Compressing  dist\apache2\envvars
+Compressing  dist\apache2\magic
+Compressing  dist\apache2\mods\alias.conf
+Compressing  dist\apache2\mods\alias.load
+Compressing  dist\apache2\mods\authn_file.load
+Compressing  dist\apache2\mods\authz_default.load
+Compressing  dist\apache2\mods\authz_groupfile.load
+Compressing  dist\apache2\mods\authz_host.load
+Compressing  dist\apache2\mods\authz_user.load
+Compressing  dist\apache2\mods\auth_basic.load
+Compressing  dist\apache2\mods\autoindex.conf
+Compressing  dist\apache2\mods\autoindex.load
+Compressing  dist\apache2\mods\cgid.conf
+Compressing  dist\apache2\mods\cgid.load
+Compressing  dist\apache2\mods\dav.load
+Compressing  dist\apache2\mods\dav_svn.conf
+Compressing  dist\apache2\mods\dav_svn.load
+Compressing  dist\apache2\mods\deflate.conf
+Compressing  dist\apache2\mods\deflate.load
+Compressing  dist\apache2\mods\dir.conf
+Compressing  dist\apache2\mods\dir.load
+Compressing  dist\apache2\mods\env.load
+Compressing  dist\apache2\mods\mime.conf
+Compressing  dist\apache2\mods\mime.load
+Compressing  dist\apache2\mods\negotiation.conf
+Compressing  dist\apache2\mods\negotiation.load
+Compressing  dist\apache2\mods\reqtimeout.conf
+Compressing  dist\apache2\mods\reqtimeout.load
+Compressing  dist\apache2\mods\setenvif.conf
+Compressing  dist\apache2\mods\setenvif.load
+Compressing  dist\apache2\mods\status.conf
+Compressing  dist\apache2\mods\status.load
+Compressing  dist\apache2\ports.conf
+Compressing  dist\apt\sources.list
+Compressing  dist\nginx\nginx-reload.sh
+Compressing  dist\nginx\nginx-restart.sh
+Compressing  dist\nginx\nginx-start.sh
+Compressing  dist\nginx\nginx-stop.sh
+Compressing  dist\nginx\nginx.conf
+Compressing  dist\nginx\nginx.sh
+Compressing  dist\php5-daemon\phpdaemon.ini
+Compressing  dist\php5-fcgi\nginx-template-php
+Compressing  dist\php5-fcgi\php5-fcgi.sh
+Compressing  dist\trac\nginx-template-trac
+Compressing  dist\trac\nginx-tracfcgi.conf
+Compressing  dist\trac\trac-fcgi
+Compressing  dist\trac\trac-fcgi.py
+Compressing  dist\trac\trac-fcgi.sh
+Compressing  installer\bs.pkg.sh
+Compressing  installer\install.sh
+Compressing  installer\php_check.php
+Compressing  libs\bs.aws.route53.php
+Compressing  libs\bs.aws.s3.php
+Compressing  libs\bs.common.php
+Compressing  libs\iridium.sql.lib.php
+Compressing  services\bs.admin_tools.php
+Compressing  services\bs.basic_platform.php
+Compressing  services\bs.nginx.php
+Compressing  services\bs.percona_mysql.php
+Compressing  services\bs.php5-fcgi.php
+Compressing  services\bs.phpDaemon.php
+Compressing  services\bs.svn.php
+Compressing  services\bs.trac.php
+
+
+WARNINGS for files:
+
+.\deploy.log : Системе не удается найти указанный путь.
+
+----------------
+WARNING: Cannot open 1 file
